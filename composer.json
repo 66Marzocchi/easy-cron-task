@@ -1,0 +1,14 @@
+{
+    "name": "app/easycron",
+    "minimum-stability": "dev",
+    "require": {
+        "php": ">=5.4.0",
+        "symfony/process": "^3.4.47",
+        "dragonmantank/cron-expression": "1.*"
+    },
+    "autoload": {
+        "psr-4": {
+            "66Marzocchi\\Easycron\\": "src/"
+        }
+    }
+}
