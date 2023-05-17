@@ -2,6 +2,7 @@
     "name": "100up/easy-cron-task",
     "minimum-stability": "dev",
     "license": "MIT",
+    "description": "Add cron task in single file",
     "require": {
         "php": ">=5.4.0",
         "symfony/process": "^3.4.47",
