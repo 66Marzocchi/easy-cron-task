@@ -1,5 +1,5 @@
 {
-    "name": "app/easycron",
+    "name": "app/easy-cron-task",
     "minimum-stability": "dev",
     "require": {
         "php": ">=5.4.0",
