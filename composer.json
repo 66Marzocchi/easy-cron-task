@@ -1,6 +1,7 @@
 {
     "name": "100up/easy-cron-task",
     "minimum-stability": "dev",
+    "license": "MIT",
     "require": {
         "php": ">=5.4.0",
         "symfony/process": "^3.4.47",
