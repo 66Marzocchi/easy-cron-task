@@ -1,7 +1,3 @@
 <?
-/**
- * @var $DOCUMENT_ROOT
- */
-
-# emample
-$schedule->exec('/opt/php56/bin/php '.$DOCUMENT_ROOT.'/path-to-file')->cron('* * * * *');
+# example
+$schedule->exec('/opt/php56/bin/php '.__DIR__.'/path-to-file')->cron('* * * * *');

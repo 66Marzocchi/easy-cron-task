@@ -1,15 +1,9 @@
 <?
-#
-# set $_SERVER["DOCUMENT_ROOT"] !!!
-#
-
-$_SERVER["DOCUMENT_ROOT"] = realpath(__DIR__);
-$DOCUMENT_ROOT = $_SERVER["DOCUMENT_ROOT"];
-require_once($DOCUMENT_ROOT . '/vendor/autoload.php');
+# set path to autoload.php
+require_once(__DIR__ . '/../vendor/autoload.php');
 
 $schedule = new Easycron\Schedule();
-
-require 'cron_task.php';
+require_once __DIR__.'/cron_task.php';
 
 $events = $schedule->dueEvents();
 if(!empty($events)) {
