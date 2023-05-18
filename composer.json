@@ -10,7 +10,7 @@
     },
     "autoload": {
         "psr-4": {
-            "66Marzocchi\\Easycron\\": "src/"
+            "Easycron\\": "src/"
         }
     }
 }
