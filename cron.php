@@ -1,5 +1,9 @@
 <?
-$_SERVER["DOCUMENT_ROOT"] = realpath(__DIR__ . "/../megacrm");
+#
+# set $_SERVER["DOCUMENT_ROOT"] !!!
+#
+
+$_SERVER["DOCUMENT_ROOT"] = realpath(__DIR__);
 $DOCUMENT_ROOT = $_SERVER["DOCUMENT_ROOT"];
 require_once($DOCUMENT_ROOT . '/vendor/autoload.php');
 
